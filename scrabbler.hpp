@@ -27,7 +27,7 @@ using std::unordered_set;
 /**
  * \class Scrabbler 
  *
- * \brief Implements a class for checking text against a given dictionary
+ * \brief Implements a class for checking tile sets against a given dictionary
  * 
  * \remarks Uses unordered_set to structure the dictionary
  */
@@ -53,7 +53,7 @@ public:
 
     /**  
      * \brief This function uses the hash function to see if the word exists 
-     *          in the dictionary hash table
+     *          in the dictionary unordered_set
      *
      * \param word, a string
      *
