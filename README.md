@@ -15,11 +15,13 @@ Special case:
 All blank tiles (not possible in a real Scrabble game)
 
 To input tile sets as lines of seven characters each in a text file:
+
   $ ./mytiles dictionary.txt tilefile.txt
   $ ./mytiles [dictionary file] [tile sets file]
 
 
 To input tile sets manually via prompt:
+
   $ ./mytiles dictionary.txt
   $ ./mytiles [dictionary file] 
 
