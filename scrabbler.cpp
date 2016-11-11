@@ -2,7 +2,6 @@
  * \file scrabbler.cpp
  * \author Ashley Gould, 
  *
- * \brief Hash function for strings
  */
 
 #include "scrabbler.hpp"
